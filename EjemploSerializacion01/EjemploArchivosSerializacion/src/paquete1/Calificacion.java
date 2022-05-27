@@ -15,8 +15,7 @@ public class Calificacion implements Serializable {
 
     public Calificacion(double n, String nombre) {
         nota = n;
-        nombreMateria = nombre;
-        
+        nombreMateria = nombre;      
     }
 
     public void establecerNota(double n) {
