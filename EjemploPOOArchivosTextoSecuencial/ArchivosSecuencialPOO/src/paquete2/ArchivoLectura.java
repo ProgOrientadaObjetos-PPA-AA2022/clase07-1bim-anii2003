@@ -63,7 +63,7 @@ public class ArchivoLectura {
 
         if (f.exists()) {
 
-            while (entrada.hasNext()) {
+            while (entrada.hasNext()) { // Entrada contiene toda información del archivo
                 String linea = entrada.nextLine(); // Tara Hernandez;contratado
 
                 ArrayList<String> linea_partes = new ArrayList<>(

@@ -1,0 +1,8 @@
+Isidro Ayora;100;38,50
+Hospital del Seguro;220;100,80
+Clínica Santa Ana;145;58,30
+Clínica Fernando Castiel;165;68,00
+Isidro Ayora;100;38,50
+Hospital del Seguro;220;100,80
+Clínica Santa Ana;145;58,30
+Clínica Fernando Castiel;165;68,00
