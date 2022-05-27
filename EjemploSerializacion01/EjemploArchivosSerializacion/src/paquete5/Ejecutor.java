@@ -9,13 +9,13 @@ public class Ejecutor {
 
     public static void main(String[] args) {
 
-        String nombreArchivo = "hospitales.data";
+        String nombreArchivo = "data/hospitales.data";
 
-        Hospital h1 = new Hospital("Isidro Ayora", 100, 38.500);
-        Hospital h2 = new Hospital("Hospital del Seguro", 220, 100.800);
-        Hospital h3 = new Hospital("Clínica Santa Ana", 145, 58.300);
-        Hospital h4 = new Hospital("Clínica Fernando Castiel", 165, 68.000);
-
+        Hospital h1 = new Hospital("Isidro Ayora", 100, 38.500,"11111");
+        Hospital h2 = new Hospital("Hospital del Seguro", 220, 100.800,"11112");
+        Hospital h3 = new Hospital("Clínica Santa Ana", 145, 58.300,"11113");
+        Hospital h4 = new Hospital("Clínica Fernando Castiel", 165, 68.000,"11114");
+        
         EscrituraArchivoSecuencial archivo = new EscrituraArchivoSecuencial(nombreArchivo);
 
         // establecer el valor del atributo registro
@@ -41,6 +41,7 @@ public class Ejecutor {
         // proceso para lectura del archivo
         LecturaArchivoSecuencial lectura = new LecturaArchivoSecuencial(nombreArchivo);
         lectura.establecerListaHospitales();
+        
         // System.out.println(lectura.toString());
         System.out.println(lectura);
         lectura.cerrarArchivo();
